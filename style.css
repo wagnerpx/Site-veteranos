@@ -41,7 +41,7 @@ header {
 
 header > h1 {
     color: white;
-    font-size: 3.2em;
+    font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
@@ -56,21 +56,24 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
 }
 
 nav {
+    
+    font-size: 2em;
     background-color: var(--cor4);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
 nav > a {
+    
     color: var(--cor3);
     padding: 10px;
     border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
+    text-decoration: underline;
+    font-weight: bolder;
     transition-duration: .5s;
 }
 
@@ -109,8 +112,8 @@ main img {
 }
 
 div.video {
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
+    margin: 20px -20px 0px -5px;
+    padding: 10px;
     padding-bottom: 50%;
     position: relative;
 }
@@ -148,7 +151,7 @@ aside > ul {
 
 ol {
     background-color: white;
-    padding: 50px;
+    padding: 80px;
     list-style-type: '\2714\00A0\00a0';
     list-style-position: inside;
     columns: 2;
