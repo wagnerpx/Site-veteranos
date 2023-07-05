@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Extra';
+    src: url('fonte/Capture\ it.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-extra: 'Extra', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('imagens/wallpaper001.jpg');
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 3.5em;
+    font-family: var(--fonte-extra);
+}
+
+p.link {
+    background-color: chocolate;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul {
+    columns: 3;
+    
+}
+
+main img {
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer {
+background-color: green;
+color: white;
+text-align: center;
+font-size: 0.8em;
+padding: 5px;
+}
+
+footer a {
+color: white;
+font-weight: bolder;
+text-decoration: none;
+}
+
+footer a:hover {
+text-decoration: underline;
+color: red;
+}
