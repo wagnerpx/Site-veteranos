@@ -40,7 +40,7 @@ header {
 }
 
 header > h1 {
-    color: white;
+    color: #731702;
     font-size: 4em;
     font-weight: normal;
     margin-bottom: 20px;
@@ -49,7 +49,7 @@ header > h1 {
 }
 
 header > p {
-    color: white;
+    color: #731702;
     text-align: center;
     font-size: 1.2em;
     max-width: 700px;
@@ -85,7 +85,7 @@ main {
     margin-bottom: 30px;
     padding: 20px;
     background-color: var(--cor5);
-    color: white;
+    color: #F27405;
 }
 
 main h3 {
