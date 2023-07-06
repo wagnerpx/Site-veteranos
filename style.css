@@ -96,20 +96,15 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    color: rgba(124, 17, 17, 0.5);
-    background-attachment: fixed;
-    background-image: url('../imagens/turma.jpg');
-    background-size: cover;
+    color: rgba(124, 17, 17, 0.678);
 }
 
-main h3 {
+h3 {
     font-family: var(--fonte-extra);
     font-weight: normal;
     text-align: center;
     font-size: 1.5em;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 10px;
 }
 
 main ol {
