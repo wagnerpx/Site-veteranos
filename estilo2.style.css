@@ -24,16 +24,6 @@ header {
     
 }
 
-header a {
-    text-decoration: none;
-    color: white;
-}
-
-header a:hover {
-    text-decoration: underline;
-    color: green;
-}
-
 h1 {
     text-align: center;
     padding: 30px;
@@ -41,13 +31,24 @@ h1 {
     font-family: var(--fonte-extra);
 }
 
-p.link {
-    background-color: chocolate;
+nav {
     text-align: center;
-    padding: 10px;
+    background-color: chocolate;
+    padding: 20px;
     font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+nav > a {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    background-color: green;
 }
 
 ul {
