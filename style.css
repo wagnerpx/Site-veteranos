@@ -34,7 +34,7 @@
 }
 
 body {
-    background-image: url('../imagens/turma.jpg');
+    background-image: url('imagens/turma.jpg');
     font-family: var(--fonte-padrao);
     background-repeat: no-repeat;
     background-attachment: fixed;
