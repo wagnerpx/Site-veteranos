@@ -5,6 +5,16 @@
 }
 
 :root {
+    --cor0: #014040;
+    --cor1: #02735E;
+    --cor2: #03A678;
+    --cor3: #F27405;
+    --cor4: #731702;
+    --cor5: #035813;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Indie Flower', cursiva;
+    --fonte-military: 'Military', sans-serif;
     --fonte-extra: 'Extra', sans-serif;
 }
 
@@ -14,69 +24,75 @@
 }
 
 body {
-    background-image: url('imagens/wallpaper001.jpg');
+    height: 1200px;
+    padding-top: 76px;
 }
 
-header {
-    background-color: black;
-    color: white;
-    padding: 30px;
-    
+header{
+    position: fixed;
+    background-color: var(--cor4);
+    width: 100%;
+    padding: 20px;
+    top: 0;
 }
-
-h1 {
+ h1 {
     text-align: center;
-    padding: 30px;
-    font-size: 3.5em;
+    color: white;
     font-family: var(--fonte-extra);
-}
+ }
+ 
+ h1:hover {
+    color: var(--cor3);
+ }
 
 nav {
     text-align: center;
-    background-color: chocolate;
-    padding: 20px;
-    font-size: 1.5em;
-    font-weight: bold;
+    background-color: var(--cor3);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 
 nav > a {
     padding: 10px;
+    font-family: var(--fonte-extra);
+    color: var(--cor4);
     border-radius: 5px;
     text-decoration: none;
     transition-duration: .5s;
 }
 
 nav a:hover {
-    background-color: green;
+    background-color: var(--cor5);
+    color: white;
 }
 
 ul {
     columns: 3;
-    
 }
 
-main img {
-    width: 95%;
-    margin: 5px;
+img {
+    width: 100%;
+    height: 100%;
     padding: 5px;
 }
 
 footer {
-background-color: green;
-color: white;
-text-align: center;
-font-size: 0.8em;
-padding: 5px;
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
 }
 
 footer a {
-color: white;
-font-weight: bolder;
-text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 footer a:hover {
-text-decoration: underline;
-color: red;
+    text-decoration: underline;
+    color: var(--cor3);
 }
