@@ -28,22 +28,23 @@ body {
     padding-top: 76px;
 }
 
-header{
+header {
     position: fixed;
     background-color: var(--cor4);
     width: 100%;
     padding: 20px;
     top: 0;
 }
- h1 {
+
+h1 {
     text-align: center;
     color: white;
     font-family: var(--fonte-extra);
- }
- 
- h1:hover {
+}
+
+h1:hover {
     color: var(--cor3);
- }
+}
 
 nav {
     text-align: center;
@@ -54,7 +55,7 @@ nav {
     text-transform: uppercase;
 }
 
-nav > a {
+nav>a {
     padding: 10px;
     font-family: var(--fonte-extra);
     color: var(--cor4);
